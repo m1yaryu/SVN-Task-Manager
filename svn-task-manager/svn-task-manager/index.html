@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SVN · Construction Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- LOGIN SCREEN (shown first) -->
+  <div id="loginScreen" class="login-screen" aria-hidden="false">
+    <div class="login-card">
+      <div class="login-brand">
+        <div class="login-logo"><i class="fa-solid fa-helmet-safety"></i></div>
+        <div>
+          <h1>SVN · Hardware & Construction</h1>
+          <p>Sign in to continue</p>
+        </div>
+      </div>
+
+      <div class="login-form">
+        <div class="field">
+          <label>Choose role</label>
+          <select id="loginRole">
+            <option value="viewer">Viewer (Worker)</option>
+            <option value="shopper">Shopper</option>
+            <option value="admin">Admin</option>
+          </select>
+        </div>
+
+        <div id="loginViewerBox" class="field">
+          <label>Select worker</label>
+          <select id="loginWorkerSelect"></select>
+          <div class="hint">Viewer can only see their “To Do” tasks and confirm completion.</div>
+        </div>
+
+        <div id="loginShopperBox" class="field" style="display:none">
+          <label>Shopper name</label>
+          <input id="loginShopperName" placeholder="e.g., John Buyer" />
+        </div>
+
+        <div id="loginAdminBox" class="field" style="display:none">
+          <label>Admin passphrase (demo)</label>
+          <input id="loginAdminPass" type="password" placeholder="Try: admin" />
+          <div class="hint">Demo passphrase: <b>admin</b> or <b>svnadmin</b></div>
+        </div>
+
+        <button id="loginSubmit" class="btn primary full">
+          <i class="fa-solid fa-right-to-bracket"></i> Sign in
+        </button>
+
+        <div class="login-foot">
+          <span><i class="fa-solid fa-database"></i> LocalStorage demo database</span>
+          <span><i class="fa-solid fa-shield"></i> Role-based access</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- APP -->
+  <div class="app" id="appRoot" aria-hidden="true">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo"><i class="fa-solid fa-helmet-safety"></i></div>
+        <div class="brand-text">
+          <h1>SVN · Hardware & Construction</h1>
+          <p id="subtitle">Task manager — assign jobs, track due dates, move cards</p>
+        </div>
+      </div>
+
+      <div class="searchbar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input id="searchInput" type="text" placeholder="Search tasks (title/notes)..." />
+        <span class="kbd">Ctrl/⌘ K</span>
+      </div>
+
+      <div class="top-actions">
+        <button id="themeToggle" class="btn ghost" title="Toggle theme">
+          <i class="fa-solid fa-circle-half-stroke"></i> Theme
+        </button>
+
+        <span id="rolePill" class="pill badge"><i class="fa-solid fa-user"></i> GUEST</span>
+        <button id="logoutBtn" class="btn ghost"><i class="fa-solid fa-right-from-bracket"></i> Sign out</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar panel">
+        <div class="side-head">
+          <h2>Menu</h2>
+          <div class="muted">Role-based access</div>
+        </div>
+
+        <nav class="nav">
+          <button class="navbtn active" data-view="tasks" data-role="all">
+            <i class="fa-solid fa-layer-group"></i> Tasks
+          </button>
+
+          <button class="navbtn" data-view="market" data-role="shopper-admin">
+            <i class="fa-solid fa-store"></i> Marketplace
+          </button>
+
+          <button class="navbtn" data-view="orders" data-role="shopper-admin">
+            <i class="fa-solid fa-receipt"></i> Orders
+          </button>
+
+          <button class="navbtn" data-view="logs" data-role="shopper-admin">
+            <i class="fa-solid fa-clock-rotate-left"></i> Logs
+          </button>
+
+          <button class="navbtn" data-view="admin" data-role="admin">
+            <i class="fa-solid fa-shield"></i> Admin
+          </button>
+        </nav>
+
+        <div class="side-card stats-card">
+          <div class="stat-grid">
+            <div class="stat">
+              <b id="workerCount">0</b>
+              <div class="muted">Workers</div>
+            </div>
+            <div class="stat">
+              <b id="taskTotal">0</b>
+              <div class="muted">Tasks</div>
+            </div>
+            <div class="stat">
+              <b id="taskOverdue">0</b>
+              <div class="muted">Overdue</div>
+            </div>
+            <div class="stat">
+              <b id="taskToday">0</b>
+              <div class="muted">Due today</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="side-card">
+          <div class="muted" style="margin-bottom:8px">Instructions</div>
+          <ul class="tips">
+            <li><b>Viewer:</b> sees only assigned “To Do” tasks and can confirm done.</li>
+            <li><b>Shopper:</b> browse products, place orders.</li>
+            <li><b>Admin:</b> manage tasks, workers, products, orders + dashboard.</li>
+          </ul>
+        </div>
+      </aside>
+
+      <section class="content panel">
+        <!-- TASKS -->
+        <section id="view_tasks" class="view active">
+          <div class="section-head">
+            <div>
+              <h2>Tasks</h2>
+              <p id="taskSummary" class="muted">0 total · 0 overdue · 0 due today</p>
+            </div>
+            <div class="actions">
+              <div class="filters">
+                <button class="pill active" data-filter="all">All</button>
+                <button class="pill" data-filter="today">Today</button>
+                <button class="pill" data-filter="soon">Next 3 days</button>
+                <button class="pill" data-filter="assigned">Assigned</button>
+                <button class="pill" data-filter="overdue">Overdue</button>
+              </div>
+              <button id="workersBtn" class="btn ghost admin-only"><i class="fa-solid fa-users"></i> Workers</button>
+              <button id="addTaskBtn" class="btn primary admin-only"><i class="fa-solid fa-circle-plus"></i> Add Task</button>
+            </div>
+          </div>
+
+          <div class="kanban">
+            <div class="col" data-drop="todo">
+              <div class="col-head"><h3>To Do</h3><span class="drop-hint">drop here</span></div>
+              <div id="todoCol" class="col-body"></div>
+            </div>
+            <div class="col col-hide-for-viewer" data-drop="inprogress">
+              <div class="col-head"><h3>In Progress</h3><span class="drop-hint">drop here</span></div>
+              <div id="progCol" class="col-body"></div>
+            </div>
+            <div class="col col-hide-for-viewer" data-drop="done">
+              <div class="col-head"><h3>Done</h3><span class="drop-hint">drop here</span></div>
+              <div id="doneCol" class="col-body"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- MARKET -->
+        <section id="view_market" class="view">
+          <div class="section-head">
+            <div>
+              <h2>Marketplace</h2>
+              <p class="muted">Browse supplies and place an order</p>
+            </div>
+            <div class="actions">
+              <button id="addProductBtn" class="btn ghost admin-only"><i class="fa-solid fa-plus"></i> Add Product</button>
+              <button id="cartBtn" class="btn primary"><i class="fa-solid fa-cart-shopping"></i> Cart <span id="cartCount" class="count">0</span></button>
+            </div>
+          </div>
+
+          <div id="productGrid" class="grid"></div>
+        </section>
+
+        <!-- ORDERS -->
+        <section id="view_orders" class="view">
+          <div class="section-head">
+            <div>
+              <h2>Orders</h2>
+              <p class="muted">Shoppers track requests · Admin manages deliveries</p>
+            </div>
+            <div class="actions">
+              <button id="exportBtn" class="btn ghost admin-only"><i class="fa-solid fa-file-export"></i> Export JSON</button>
+            </div>
+          </div>
+          <div id="ordersList" class="stack"></div>
+        </section>
+
+        <!-- LOGS -->
+        <section id="view_logs" class="view">
+          <div class="section-head">
+            <div>
+              <h2>Activity Logs</h2>
+              <p class="muted">Track actions: tasks, orders, products, sign-ins</p>
+            </div>
+            <div class="actions">
+              <button id="clearLogsBtn" class="btn ghost admin-only">
+                <i class="fa-solid fa-trash"></i> Clear Logs
+              </button>
+            </div>
+          </div>
+
+          <div id="logsList" class="stack"></div>
+        </section>
+
+        <!-- ADMIN -->
+        <section id="view_admin" class="view">
+          <div class="section-head">
+            <div>
+              <h2>Admin Dashboard</h2>
+              <p class="muted">Worker consistency + order requests + overall status</p>
+            </div>
+            <div class="actions">
+              <button id="importBtn" class="btn ghost"><i class="fa-solid fa-file-import"></i> Import JSON</button>
+              <input id="importFile" type="file" accept="application/json" style="display:none" />
+            </div>
+          </div>
+
+          <div class="dash">
+            <div class="card">
+              <h3>Worker consistency</h3>
+              <div id="workerStats" class="stack"></div>
+            </div>
+            <div class="card">
+              <h3>Requests / orders to deliver</h3>
+              <div id="deliverStats" class="stack"></div>
+            </div>
+            <div class="card">
+              <h3>Overall status</h3>
+              <div id="overallStats" class="stack"></div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="foot">
+          <div>SVN Yard · Safety First <i class="fa-solid fa-helmet-safety"></i></div>
+          <div class="muted">LocalStorage demo · Roles: Admin / Viewer / Shopper</div>
+        </footer>
+      </section>
+    </main>
+  </div>
+
+  <!-- GENERIC MODAL -->
+  <div id="backdrop" class="backdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true">
+      <div class="modal-head">
+        <h3 id="modalTitle">Modal</h3>
+        <button id="closeModal" class="btn icon ghost"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+      <div id="modalFoot" class="modal-foot"></div>
+    </div>
+  </div>
+
+  <div id="toasts" class="toasts"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

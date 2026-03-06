@@ -1,0 +1,51 @@
+assignment_id,worker_id,task_id,supervisor_id,skill,priority,status
+A1,W1618,T31,S119,Cybersecurity,Low,Completed
+A2,W1501,T5,S154,UI/UX,Low,Completed
+A3,W1968,T25,S186,Data Analysis,High,On Hold
+A4,W1328,T2,S189,DevOps,Critical,Pending
+A5,W1070,T30,S139,Data Analysis,Medium,On Hold
+A6,W1335,T21,S116,Java,High,Pending
+A7,W1510,T26,S110,Project Management,Critical,On Hold
+A8,W1472,T31,S108,Data Analysis,Critical,Pending
+A9,W1807,T23,S149,DevOps,Low,In Progress
+A10,W1362,T34,S186,Data Analysis,High,Completed
+A11,W1182,T15,S179,C++,High,Pending
+A12,W1147,T16,S100,Data Analysis,Critical,In Progress
+A13,W1674,T13,S100,Project Management,Critical,Completed
+A14,W1004,T27,S141,Data Analysis,Medium,On Hold
+A15,W1116,T44,S109,DevOps,Low,In Progress
+A16,W1819,T19,S158,C++,Medium,Pending
+A17,W1328,T3,S193,Python,High,Pending
+A18,W1450,T29,S113,Python,High,On Hold
+A19,W1387,T2,S166,Data Analysis,Medium,In Progress
+A20,W1230,T4,S109,UI/UX,Medium,Pending
+A21,W1163,T12,S123,Python,Low,In Progress
+A22,W1314,T9,S176,DevOps,High,Completed
+A23,W1137,T20,S107,Java,Medium,On Hold
+A24,W1498,T44,S142,Data Analysis,Medium,Pending
+A25,W1822,T40,S117,Data Analysis,Critical,In Progress
+A26,W1891,T34,S165,Python,Medium,Completed
+A27,W1437,T48,S143,Python,Low,Pending
+A28,W1458,T8,S190,Python,Critical,Pending
+A29,W1978,T30,S199,Python,High,Completed
+A30,W1370,T27,S124,Cybersecurity,Low,In Progress
+A31,W1250,T24,S155,Java,Medium,In Progress
+A32,W1465,T2,S102,Project Management,Critical,On Hold
+A33,W1976,T7,S148,C++,High,On Hold
+A34,W1172,T28,S116,Python,Critical,Pending
+A35,W1955,T48,S113,Data Analysis,High,Pending
+A36,W1859,T30,S163,Cybersecurity,High,Completed
+A37,W1771,T47,S170,Cybersecurity,High,Completed
+A38,W1846,T31,S157,Data Analysis,Medium,In Progress
+A39,W1838,T4,S189,Project Management,Critical,Pending
+A40,W1474,T15,S160,Data Analysis,Medium,In Progress
+A41,W1456,T15,S163,Data Analysis,High,Completed
+A42,W1222,T41,S127,Data Analysis,Low,Completed
+A43,W1941,T32,S120,DevOps,Medium,Completed
+A44,W1485,T40,S114,UI/UX,Low,On Hold
+A45,W1962,T4,S187,Python,High,In Progress
+A46,W1109,T15,S119,Java,High,In Progress
+A47,W1545,T5,S161,Java,Critical,In Progress
+A48,W1452,T23,S185,UI/UX,High,Completed
+A49,W1566,T46,S125,Data Analysis,High,In Progress
+A50,W1504,T3,S136,Project Management,High,In Progress

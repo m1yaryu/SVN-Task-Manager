@@ -1,0 +1,1001 @@
+assignment_id,worker_id,task_id,supervisor_id,skill,priority,status
+A1,W1724,T902,S172,Project Management,Critical,On Hold
+A2,W1226,T153,S187,Java,Critical,Completed
+A3,W1842,T794,S196,Python,Medium,Completed
+A4,W1703,T551,S100,Data Analysis,Medium,Completed
+A5,W1253,T69,S138,Java,Medium,Pending
+A6,W1436,T281,S129,Project Management,High,Completed
+A7,W1051,T617,S174,Java,Low,Completed
+A8,W1792,T445,S101,UI/UX,Low,On Hold
+A9,W1376,T138,S116,Project Management,Medium,In Progress
+A10,W1135,T152,S177,Project Management,Critical,On Hold
+A11,W1393,T541,S172,DevOps,Medium,Completed
+A12,W1829,T318,S114,Data Analysis,Critical,On Hold
+A13,W1986,T951,S152,Java,High,Pending
+A14,W1618,T357,S199,Project Management,Low,Completed
+A15,W1494,T803,S101,Project Management,High,Pending
+A16,W1704,T338,S149,Project Management,Medium,In Progress
+A17,W1536,T624,S196,Cybersecurity,Low,In Progress
+A18,W1456,T491,S133,DevOps,High,Completed
+A19,W1468,T445,S110,C++,Medium,On Hold
+A20,W1318,T29,S133,Project Management,Medium,Completed
+A21,W1883,T643,S132,Cybersecurity,Medium,In Progress
+A22,W1912,T240,S197,Project Management,Medium,Pending
+A23,W1231,T409,S197,Cybersecurity,Critical,On Hold
+A24,W1601,T497,S186,Java,Critical,Pending
+A25,W1442,T128,S160,Cybersecurity,Medium,In Progress
+A26,W1163,T409,S103,DevOps,Medium,Completed
+A27,W1654,T846,S105,UI/UX,Critical,Pending
+A28,W1651,T919,S159,Java,Low,Pending
+A29,W1682,T587,S132,DevOps,Critical,On Hold
+A30,W1552,T752,S199,UI/UX,Critical,In Progress
+A31,W1059,T921,S198,Data Analysis,High,Pending
+A32,W1218,T936,S185,Data Analysis,Low,On Hold
+A33,W1525,T792,S119,UI/UX,Low,In Progress
+A34,W1874,T526,S137,Python,High,In Progress
+A35,W1678,T224,S138,DevOps,Critical,In Progress
+A36,W1242,T725,S165,UI/UX,Low,On Hold
+A37,W1949,T86,S124,UI/UX,Critical,Completed
+A38,W1049,T359,S116,Cybersecurity,High,Pending
+A39,W1295,T220,S153,C++,Medium,Completed
+A40,W1418,T411,S159,Data Analysis,High,Pending
+A41,W1318,T171,S119,Python,Critical,Pending
+A42,W1086,T115,S147,Cybersecurity,Medium,Pending
+A43,W1247,T281,S184,Java,Medium,Completed
+A44,W1631,T373,S114,UI/UX,Medium,In Progress
+A45,W1500,T516,S160,Cybersecurity,Medium,Pending
+A46,W1447,T317,S112,Python,High,Pending
+A47,W1839,T463,S133,UI/UX,Medium,Pending
+A48,W1606,T997,S173,Cybersecurity,Critical,On Hold
+A49,W1944,T883,S179,Cybersecurity,Critical,In Progress
+A50,W1551,T182,S154,UI/UX,Critical,On Hold
+A51,W1533,T650,S158,DevOps,High,Completed
+A52,W1980,T321,S183,Python,Critical,Completed
+A53,W1075,T315,S170,Python,Critical,Completed
+A54,W1068,T450,S198,UI/UX,High,Pending
+A55,W1140,T625,S106,Cybersecurity,Critical,In Progress
+A56,W1034,T215,S186,Python,Critical,Pending
+A57,W1809,T592,S149,Python,Critical,In Progress
+A58,W1263,T673,S185,C++,Medium,On Hold
+A59,W1151,T484,S123,C++,Low,On Hold
+A60,W1641,T67,S142,UI/UX,Critical,Pending
+A61,W1618,T991,S163,UI/UX,Medium,On Hold
+A62,W1296,T885,S144,Data Analysis,Critical,In Progress
+A63,W1028,T270,S185,Project Management,Medium,On Hold
+A64,W1852,T638,S150,DevOps,Critical,Pending
+A65,W1562,T357,S177,Java,Medium,Completed
+A66,W1989,T665,S107,Python,Low,Pending
+A67,W1275,T160,S104,C++,Critical,In Progress
+A68,W1967,T299,S121,Project Management,Low,Pending
+A69,W1550,T405,S169,DevOps,Medium,Pending
+A70,W1752,T515,S170,Project Management,Critical,Completed
+A71,W1861,T514,S152,Java,High,Completed
+A72,W1498,T116,S120,DevOps,Critical,In Progress
+A73,W1579,T501,S177,Python,High,On Hold
+A74,W1904,T149,S181,DevOps,Critical,Pending
+A75,W1416,T385,S153,C++,Critical,On Hold
+A76,W1224,T532,S173,Python,High,Pending
+A77,W1409,T206,S178,C++,Medium,Pending
+A78,W1222,T854,S162,Cybersecurity,Medium,On Hold
+A79,W1029,T677,S188,UI/UX,Low,In Progress
+A80,W1842,T114,S163,C++,Critical,In Progress
+A81,W1821,T81,S116,Java,High,In Progress
+A82,W1205,T267,S140,UI/UX,High,In Progress
+A83,W1559,T759,S180,UI/UX,Low,Completed
+A84,W1295,T547,S142,Project Management,Medium,Pending
+A85,W1122,T70,S102,Data Analysis,Low,In Progress
+A86,W1960,T684,S120,Project Management,Low,Pending
+A87,W1497,T928,S128,Data Analysis,Medium,On Hold
+A88,W1745,T596,S185,DevOps,Medium,Pending
+A89,W1659,T364,S139,Data Analysis,Medium,On Hold
+A90,W1118,T491,S124,UI/UX,Medium,Pending
+A91,W1040,T552,S125,Project Management,Medium,In Progress
+A92,W1770,T583,S124,C++,Critical,Completed
+A93,W1326,T882,S145,Cybersecurity,Medium,Completed
+A94,W1659,T905,S113,UI/UX,Medium,In Progress
+A95,W1362,T603,S113,Data Analysis,Critical,Pending
+A96,W1258,T71,S111,Data Analysis,High,On Hold
+A97,W1105,T826,S154,UI/UX,Critical,In Progress
+A98,W1798,T54,S168,DevOps,Medium,Pending
+A99,W1148,T286,S176,Cybersecurity,Low,In Progress
+A100,W1943,T646,S118,DevOps,Critical,In Progress
+A101,W1636,T556,S125,Python,Critical,Pending
+A102,W1203,T798,S115,Data Analysis,Medium,Pending
+A103,W1486,T646,S177,Java,Low,On Hold
+A104,W1816,T779,S127,C++,Critical,In Progress
+A105,W1687,T817,S111,DevOps,Critical,On Hold
+A106,W1366,T271,S190,DevOps,Low,Pending
+A107,W1269,T361,S191,Data Analysis,High,Pending
+A108,W1417,T970,S175,Project Management,Critical,Completed
+A109,W1726,T698,S116,Python,High,On Hold
+A110,W1997,T433,S130,Project Management,Medium,Pending
+A111,W1083,T382,S173,Data Analysis,Low,Completed
+A112,W1142,T416,S110,Data Analysis,Critical,In Progress
+A113,W1465,T409,S164,Project Management,Critical,In Progress
+A114,W1616,T960,S101,Data Analysis,Critical,Completed
+A115,W1903,T746,S135,Python,High,On Hold
+A116,W1394,T232,S126,Data Analysis,Low,Completed
+A117,W1267,T535,S170,Java,Medium,On Hold
+A118,W1090,T796,S160,Python,Low,Pending
+A119,W1447,T80,S176,Java,High,In Progress
+A120,W1969,T404,S113,Python,Critical,In Progress
+A121,W1257,T740,S123,C++,Critical,In Progress
+A122,W1187,T8,S150,Data Analysis,High,Pending
+A123,W1410,T158,S173,DevOps,Medium,Pending
+A124,W1504,T257,S157,Python,Low,Pending
+A125,W1696,T591,S171,C++,Critical,In Progress
+A126,W1061,T71,S163,Data Analysis,Critical,Pending
+A127,W1332,T571,S137,Project Management,Critical,Completed
+A128,W1851,T14,S185,Java,High,Pending
+A129,W1894,T894,S110,C++,Medium,Pending
+A130,W1901,T272,S107,Project Management,High,On Hold
+A131,W1141,T986,S187,C++,Low,Completed
+A132,W1695,T514,S117,C++,Low,Completed
+A133,W1283,T959,S177,DevOps,Low,Pending
+A134,W1632,T101,S119,Project Management,Low,Pending
+A135,W1755,T466,S157,Java,High,Completed
+A136,W1876,T191,S127,Java,Low,In Progress
+A137,W1852,T458,S177,UI/UX,High,In Progress
+A138,W1765,T226,S163,C++,Low,Completed
+A139,W1157,T291,S104,Data Analysis,Low,On Hold
+A140,W1002,T168,S128,DevOps,Medium,Completed
+A141,W1052,T30,S115,UI/UX,Critical,Pending
+A142,W1608,T687,S144,UI/UX,Critical,Completed
+A143,W1947,T836,S158,Data Analysis,Medium,In Progress
+A144,W1100,T222,S110,Python,Critical,On Hold
+A145,W1936,T588,S192,Python,Critical,In Progress
+A146,W1516,T505,S169,Project Management,Critical,In Progress
+A147,W1573,T96,S111,Project Management,Critical,Pending
+A148,W1383,T559,S140,Java,Critical,On Hold
+A149,W1711,T256,S122,Python,Low,On Hold
+A150,W1833,T338,S183,Cybersecurity,Critical,Completed
+A151,W1173,T757,S197,DevOps,Low,Completed
+A152,W1229,T750,S174,Data Analysis,High,Completed
+A153,W1507,T787,S196,Data Analysis,High,Completed
+A154,W1068,T164,S180,DevOps,High,On Hold
+A155,W1543,T509,S103,Project Management,High,In Progress
+A156,W1498,T802,S188,C++,High,Completed
+A157,W1599,T729,S156,DevOps,Critical,In Progress
+A158,W1146,T166,S157,Cybersecurity,Critical,Completed
+A159,W1460,T779,S166,UI/UX,High,Pending
+A160,W1735,T801,S121,Data Analysis,Low,Pending
+A161,W1545,T569,S156,DevOps,Low,Pending
+A162,W1953,T25,S145,C++,Critical,Completed
+A163,W1861,T424,S196,C++,Low,Completed
+A164,W1969,T865,S133,Java,Medium,Completed
+A165,W1186,T476,S127,DevOps,Critical,On Hold
+A166,W1044,T270,S120,C++,Low,On Hold
+A167,W1903,T454,S124,DevOps,Medium,Pending
+A168,W1790,T756,S167,DevOps,Critical,Completed
+A169,W1813,T466,S106,C++,Critical,Pending
+A170,W1363,T118,S142,C++,High,On Hold
+A171,W1578,T982,S150,UI/UX,Low,Completed
+A172,W1966,T102,S173,Project Management,Medium,Pending
+A173,W1603,T867,S181,Python,High,On Hold
+A174,W1754,T295,S163,Data Analysis,Critical,Completed
+A175,W1497,T312,S183,Data Analysis,Critical,In Progress
+A176,W1736,T686,S167,Data Analysis,Medium,Pending
+A177,W1427,T754,S124,DevOps,Medium,In Progress
+A178,W1832,T202,S137,DevOps,High,In Progress
+A179,W1322,T345,S107,Python,Critical,Completed
+A180,W1143,T87,S111,DevOps,Medium,On Hold
+A181,W1365,T312,S165,Project Management,Medium,Completed
+A182,W1505,T246,S138,Python,Low,In Progress
+A183,W1578,T868,S176,Java,Critical,In Progress
+A184,W1063,T888,S166,Project Management,Low,Pending
+A185,W1344,T239,S170,Python,High,On Hold
+A186,W1982,T404,S128,C++,High,In Progress
+A187,W1494,T645,S120,C++,High,On Hold
+A188,W1486,T766,S117,Project Management,Low,Completed
+A189,W1852,T779,S124,DevOps,Critical,Completed
+A190,W1906,T677,S134,DevOps,Low,Pending
+A191,W1475,T30,S149,DevOps,Low,In Progress
+A192,W1873,T301,S186,DevOps,Medium,In Progress
+A193,W1053,T287,S147,UI/UX,Medium,On Hold
+A194,W1209,T335,S104,Project Management,High,On Hold
+A195,W1486,T219,S169,Project Management,High,Pending
+A196,W1365,T309,S148,Cybersecurity,Medium,Completed
+A197,W1742,T469,S111,DevOps,Low,Pending
+A198,W1879,T90,S137,Project Management,Low,Pending
+A199,W1364,T649,S105,Project Management,Medium,Completed
+A200,W1633,T146,S156,UI/UX,Medium,Pending
+A201,W1074,T120,S168,UI/UX,Critical,In Progress
+A202,W1169,T455,S183,Project Management,High,Completed
+A203,W1134,T810,S142,C++,High,Completed
+A204,W1464,T439,S154,Python,Medium,In Progress
+A205,W1680,T811,S113,Java,High,In Progress
+A206,W1635,T704,S152,Data Analysis,High,On Hold
+A207,W1022,T273,S197,Cybersecurity,Low,Pending
+A208,W1524,T791,S116,Project Management,Medium,On Hold
+A209,W1678,T274,S139,Java,Low,On Hold
+A210,W1688,T405,S160,Python,Low,In Progress
+A211,W1068,T442,S114,Python,Critical,On Hold
+A212,W1350,T454,S176,Java,Low,Completed
+A213,W1836,T870,S123,Project Management,Low,Completed
+A214,W1172,T942,S120,Project Management,Medium,Completed
+A215,W1369,T715,S100,Project Management,Low,Completed
+A216,W1913,T127,S165,UI/UX,Medium,In Progress
+A217,W1640,T943,S166,Project Management,Critical,On Hold
+A218,W1935,T291,S102,Data Analysis,Medium,Completed
+A219,W1761,T908,S174,Python,Critical,On Hold
+A220,W1793,T297,S163,Data Analysis,Low,In Progress
+A221,W1892,T804,S100,C++,Critical,In Progress
+A222,W1953,T682,S195,UI/UX,Critical,Completed
+A223,W1557,T457,S183,UI/UX,Critical,On Hold
+A224,W1157,T433,S156,Python,Medium,Completed
+A225,W1356,T666,S102,Project Management,Low,In Progress
+A226,W1960,T900,S100,UI/UX,Low,Pending
+A227,W1445,T861,S187,Cybersecurity,Medium,In Progress
+A228,W1377,T460,S102,Python,Critical,In Progress
+A229,W1355,T124,S147,Java,Medium,In Progress
+A230,W1528,T694,S103,DevOps,High,In Progress
+A231,W1047,T667,S146,UI/UX,Critical,Pending
+A232,W1550,T791,S175,C++,Medium,Pending
+A233,W1620,T722,S118,C++,High,Completed
+A234,W1508,T424,S156,Java,Critical,Completed
+A235,W1175,T640,S176,Project Management,Medium,In Progress
+A236,W1890,T844,S131,Data Analysis,High,On Hold
+A237,W1378,T481,S191,DevOps,Medium,Completed
+A238,W1284,T97,S174,Python,Low,Pending
+A239,W1296,T478,S151,Java,High,Pending
+A240,W1853,T709,S127,Python,High,In Progress
+A241,W1414,T462,S178,Cybersecurity,Critical,On Hold
+A242,W1656,T486,S147,Java,High,Pending
+A243,W1159,T198,S167,UI/UX,High,In Progress
+A244,W1284,T616,S182,Project Management,High,Completed
+A245,W1519,T883,S174,Project Management,Critical,In Progress
+A246,W1733,T519,S191,Java,Low,In Progress
+A247,W1954,T995,S178,Python,Medium,On Hold
+A248,W1924,T148,S113,Cybersecurity,Low,In Progress
+A249,W1186,T188,S109,Java,Medium,Pending
+A250,W1826,T992,S186,Python,Medium,In Progress
+A251,W1907,T996,S128,C++,Medium,Pending
+A252,W1918,T744,S138,Java,High,On Hold
+A253,W1546,T917,S139,Java,Critical,Completed
+A254,W1526,T656,S130,C++,Low,Pending
+A255,W1783,T442,S151,Python,Medium,Pending
+A256,W1030,T595,S184,Java,Critical,In Progress
+A257,W1321,T323,S148,DevOps,Low,On Hold
+A258,W1238,T189,S136,Java,Critical,On Hold
+A259,W1314,T243,S153,Data Analysis,Low,On Hold
+A260,W1759,T62,S181,DevOps,Critical,Completed
+A261,W1984,T499,S197,DevOps,High,In Progress
+A262,W1205,T298,S146,C++,Low,In Progress
+A263,W1883,T61,S155,C++,Medium,In Progress
+A264,W1732,T499,S150,Project Management,Critical,Pending
+A265,W1627,T9,S174,Project Management,High,In Progress
+A266,W1677,T387,S183,Cybersecurity,Medium,On Hold
+A267,W1055,T910,S159,Cybersecurity,Low,On Hold
+A268,W1861,T437,S170,C++,High,Pending
+A269,W1144,T264,S132,Python,Medium,On Hold
+A270,W1456,T786,S119,UI/UX,Medium,Pending
+A271,W1977,T157,S185,C++,High,On Hold
+A272,W1400,T542,S171,Data Analysis,Medium,Pending
+A273,W1925,T90,S127,Java,Low,Completed
+A274,W1883,T758,S140,C++,Medium,On Hold
+A275,W1509,T696,S143,Data Analysis,Low,Completed
+A276,W1097,T631,S131,DevOps,High,On Hold
+A277,W1164,T363,S163,DevOps,Medium,In Progress
+A278,W1435,T567,S128,Cybersecurity,High,In Progress
+A279,W1142,T789,S103,Project Management,Critical,On Hold
+A280,W1917,T738,S164,Project Management,Medium,Completed
+A281,W1215,T389,S194,Java,Critical,Completed
+A282,W1509,T438,S124,DevOps,Medium,Completed
+A283,W1397,T663,S185,DevOps,High,Completed
+A284,W1779,T907,S136,Data Analysis,Low,In Progress
+A285,W1714,T779,S109,C++,Medium,Completed
+A286,W1163,T72,S100,Java,High,Pending
+A287,W1838,T883,S164,Project Management,Low,In Progress
+A288,W1383,T666,S110,Java,Medium,Pending
+A289,W1723,T958,S146,DevOps,High,Completed
+A290,W1541,T939,S116,Project Management,High,In Progress
+A291,W1426,T701,S160,UI/UX,Critical,On Hold
+A292,W1712,T184,S141,C++,Medium,In Progress
+A293,W1863,T286,S193,UI/UX,Medium,In Progress
+A294,W1301,T359,S144,Data Analysis,High,Completed
+A295,W1784,T109,S125,UI/UX,Critical,On Hold
+A296,W1066,T545,S129,Java,Medium,Completed
+A297,W1927,T428,S150,C++,Low,Completed
+A298,W1311,T307,S196,Data Analysis,Medium,Pending
+A299,W1125,T316,S105,C++,Critical,Pending
+A300,W1339,T873,S117,C++,Critical,On Hold
+A301,W1639,T495,S161,Cybersecurity,Critical,Pending
+A302,W1900,T281,S110,C++,High,In Progress
+A303,W1490,T793,S127,Python,Critical,On Hold
+A304,W1512,T29,S168,Python,Medium,In Progress
+A305,W1174,T833,S101,DevOps,Critical,Pending
+A306,W1296,T187,S116,DevOps,Medium,Completed
+A307,W1194,T992,S172,C++,Critical,Pending
+A308,W1842,T550,S198,UI/UX,Low,Pending
+A309,W1659,T381,S189,DevOps,Critical,In Progress
+A310,W1204,T408,S194,Java,Low,In Progress
+A311,W1033,T38,S115,DevOps,Critical,On Hold
+A312,W1409,T567,S151,Data Analysis,High,In Progress
+A313,W1242,T428,S116,Project Management,Low,Pending
+A314,W1295,T28,S133,Project Management,Critical,Pending
+A315,W1632,T598,S160,Python,Medium,Pending
+A316,W1970,T696,S160,Project Management,Low,On Hold
+A317,W1474,T385,S166,Cybersecurity,Low,Pending
+A318,W1967,T961,S107,Project Management,Medium,Completed
+A319,W1135,T551,S140,Data Analysis,Critical,In Progress
+A320,W1269,T786,S179,C++,Critical,On Hold
+A321,W1876,T984,S122,Cybersecurity,High,In Progress
+A322,W1159,T371,S103,DevOps,Low,Completed
+A323,W1455,T726,S196,C++,Low,Pending
+A324,W1212,T961,S103,C++,High,Completed
+A325,W1722,T114,S163,Project Management,Critical,In Progress
+A326,W1321,T945,S190,Python,Low,On Hold
+A327,W1112,T483,S114,Project Management,High,Completed
+A328,W1164,T298,S163,C++,Critical,Completed
+A329,W1176,T542,S169,UI/UX,Medium,Completed
+A330,W1872,T401,S102,Java,Low,Pending
+A331,W1872,T937,S131,Cybersecurity,High,On Hold
+A332,W1430,T408,S101,Python,High,On Hold
+A333,W1114,T994,S178,C++,Critical,On Hold
+A334,W1043,T923,S146,Cybersecurity,Critical,In Progress
+A335,W1432,T263,S196,Python,Critical,On Hold
+A336,W1383,T175,S176,C++,Medium,On Hold
+A337,W1852,T32,S170,Cybersecurity,Medium,In Progress
+A338,W1951,T632,S126,Data Analysis,Low,Pending
+A339,W1140,T19,S139,Project Management,Critical,Pending
+A340,W1074,T433,S189,Python,Critical,On Hold
+A341,W1361,T369,S112,Java,Low,Pending
+A342,W1993,T727,S142,Data Analysis,Low,In Progress
+A343,W1086,T905,S138,Java,Medium,Completed
+A344,W1245,T656,S155,Java,High,In Progress
+A345,W1934,T447,S106,Data Analysis,Medium,In Progress
+A346,W1984,T873,S135,C++,Critical,Pending
+A347,W1570,T137,S101,Data Analysis,High,Pending
+A348,W1034,T579,S191,Data Analysis,High,Pending
+A349,W1445,T203,S101,C++,High,Pending
+A350,W1696,T539,S128,UI/UX,Low,On Hold
+A351,W1618,T692,S146,Cybersecurity,High,In Progress
+A352,W1781,T361,S108,Cybersecurity,Low,In Progress
+A353,W1409,T670,S151,Java,Critical,Completed
+A354,W1711,T548,S143,UI/UX,Critical,Completed
+A355,W1570,T919,S114,Python,Medium,Completed
+A356,W1359,T995,S188,Cybersecurity,Medium,In Progress
+A357,W1113,T529,S160,Project Management,Low,On Hold
+A358,W1530,T300,S156,Java,Low,On Hold
+A359,W1688,T325,S178,Python,Low,Completed
+A360,W1632,T906,S117,Python,Critical,On Hold
+A361,W1131,T235,S100,Project Management,High,Pending
+A362,W1100,T305,S187,DevOps,Low,On Hold
+A363,W1222,T819,S149,Project Management,Critical,In Progress
+A364,W1695,T734,S194,Cybersecurity,Medium,Pending
+A365,W1558,T571,S186,Cybersecurity,High,On Hold
+A366,W1626,T350,S117,Java,Critical,On Hold
+A367,W1540,T686,S129,Python,Low,Completed
+A368,W1739,T959,S101,Cybersecurity,High,On Hold
+A369,W1720,T259,S111,Project Management,Low,On Hold
+A370,W1858,T787,S156,C++,Low,Pending
+A371,W1950,T902,S125,Data Analysis,Critical,On Hold
+A372,W1081,T481,S136,Project Management,Low,On Hold
+A373,W1715,T276,S141,C++,Critical,On Hold
+A374,W1456,T259,S164,Data Analysis,Critical,Pending
+A375,W1283,T368,S181,DevOps,Critical,In Progress
+A376,W1400,T40,S164,UI/UX,High,In Progress
+A377,W1809,T187,S122,Project Management,Medium,On Hold
+A378,W1026,T619,S123,Data Analysis,Critical,On Hold
+A379,W1445,T147,S103,Python,High,In Progress
+A380,W1553,T764,S109,Cybersecurity,Critical,In Progress
+A381,W1761,T480,S103,Project Management,Medium,In Progress
+A382,W1548,T617,S108,Project Management,Medium,In Progress
+A383,W1568,T909,S106,DevOps,Medium,Pending
+A384,W1764,T576,S106,Cybersecurity,Medium,On Hold
+A385,W1652,T160,S115,Java,Critical,On Hold
+A386,W1802,T252,S199,Project Management,High,Pending
+A387,W1912,T220,S168,Java,Medium,On Hold
+A388,W1798,T473,S138,Project Management,Low,Completed
+A389,W1598,T576,S176,Project Management,Critical,Pending
+A390,W1554,T765,S130,Cybersecurity,Medium,Pending
+A391,W1362,T505,S175,DevOps,High,Pending
+A392,W1587,T53,S133,Java,Medium,Completed
+A393,W1874,T309,S190,UI/UX,Medium,On Hold
+A394,W1297,T338,S119,DevOps,High,Completed
+A395,W1344,T670,S118,DevOps,Medium,In Progress
+A396,W1367,T522,S136,DevOps,Low,In Progress
+A397,W1556,T508,S134,UI/UX,Low,Pending
+A398,W1705,T827,S119,DevOps,High,On Hold
+A399,W1054,T152,S123,Python,Medium,Completed
+A400,W1461,T638,S142,Python,Critical,Pending
+A401,W1706,T323,S186,C++,Critical,In Progress
+A402,W1501,T34,S118,DevOps,Critical,On Hold
+A403,W1546,T540,S124,Data Analysis,Medium,Pending
+A404,W1765,T626,S141,Java,Critical,Completed
+A405,W1319,T786,S144,Java,Medium,Pending
+A406,W1980,T346,S174,Java,Medium,Pending
+A407,W1508,T620,S166,Cybersecurity,Critical,In Progress
+A408,W1727,T247,S175,UI/UX,Medium,Completed
+A409,W1370,T648,S179,Java,Medium,Completed
+A410,W1156,T172,S183,DevOps,Critical,Pending
+A411,W1803,T129,S144,Data Analysis,Medium,Completed
+A412,W1173,T791,S132,DevOps,Low,Completed
+A413,W1585,T59,S152,UI/UX,Critical,In Progress
+A414,W1696,T753,S176,DevOps,Medium,On Hold
+A415,W1248,T337,S157,C++,Medium,Completed
+A416,W1154,T115,S117,Java,High,On Hold
+A417,W1536,T663,S110,C++,High,In Progress
+A418,W1387,T963,S121,Data Analysis,High,In Progress
+A419,W1551,T488,S119,Java,Critical,In Progress
+A420,W1577,T67,S150,Project Management,Medium,On Hold
+A421,W1713,T159,S129,UI/UX,High,On Hold
+A422,W1803,T548,S114,Cybersecurity,Critical,In Progress
+A423,W1368,T90,S139,Python,High,On Hold
+A424,W1523,T370,S158,Data Analysis,Low,Pending
+A425,W1633,T923,S119,Project Management,High,Pending
+A426,W1269,T520,S129,Project Management,High,Completed
+A427,W1488,T662,S151,C++,Medium,Pending
+A428,W1778,T68,S197,DevOps,Critical,Completed
+A429,W1399,T77,S184,Java,Medium,Completed
+A430,W1878,T627,S143,Data Analysis,High,Completed
+A431,W1918,T80,S165,DevOps,Medium,On Hold
+A432,W1941,T169,S123,C++,Medium,On Hold
+A433,W1332,T663,S108,Project Management,High,In Progress
+A434,W1958,T961,S151,Cybersecurity,Critical,In Progress
+A435,W1573,T695,S143,DevOps,Medium,In Progress
+A436,W1858,T19,S101,DevOps,Critical,Pending
+A437,W1683,T631,S176,Cybersecurity,Medium,Completed
+A438,W1058,T383,S181,Project Management,Low,Pending
+A439,W1808,T140,S113,Data Analysis,Low,Pending
+A440,W1059,T308,S164,Java,High,Pending
+A441,W1933,T563,S156,Cybersecurity,Medium,In Progress
+A442,W1349,T908,S162,Data Analysis,Medium,Pending
+A443,W1838,T727,S126,DevOps,Medium,Completed
+A444,W1602,T603,S195,C++,Low,Pending
+A445,W1968,T766,S190,Project Management,Critical,Pending
+A446,W1378,T564,S121,UI/UX,Critical,In Progress
+A447,W1624,T396,S174,C++,Low,Pending
+A448,W1098,T231,S197,C++,High,In Progress
+A449,W1665,T358,S165,C++,Low,Pending
+A450,W1167,T769,S113,Project Management,Low,On Hold
+A451,W1972,T246,S154,UI/UX,High,In Progress
+A452,W1888,T126,S150,Python,High,On Hold
+A453,W1764,T911,S116,Cybersecurity,High,In Progress
+A454,W1270,T440,S108,Python,Critical,In Progress
+A455,W1802,T751,S132,Cybersecurity,Low,On Hold
+A456,W1223,T713,S184,DevOps,Critical,Completed
+A457,W1934,T759,S140,Python,High,On Hold
+A458,W1687,T956,S110,Data Analysis,Low,Completed
+A459,W1160,T801,S183,Cybersecurity,High,Completed
+A460,W1295,T467,S101,Java,High,Pending
+A461,W1683,T451,S138,DevOps,Low,Pending
+A462,W1533,T407,S126,Cybersecurity,Critical,Completed
+A463,W1737,T687,S119,Java,Medium,Completed
+A464,W1810,T10,S110,Project Management,Critical,On Hold
+A465,W1776,T725,S113,Python,Low,In Progress
+A466,W1528,T956,S178,C++,Low,Completed
+A467,W1026,T864,S177,C++,Medium,On Hold
+A468,W1752,T825,S181,UI/UX,High,Pending
+A469,W1799,T711,S118,Java,Low,In Progress
+A470,W1910,T858,S173,Cybersecurity,Medium,Pending
+A471,W1918,T897,S104,Java,Critical,In Progress
+A472,W1584,T472,S169,Project Management,Low,In Progress
+A473,W1309,T712,S181,UI/UX,Critical,Completed
+A474,W1095,T891,S151,C++,Low,On Hold
+A475,W1199,T485,S145,UI/UX,Critical,Completed
+A476,W1272,T876,S102,DevOps,Medium,Pending
+A477,W1861,T767,S194,Java,Low,Pending
+A478,W1090,T951,S157,Java,High,On Hold
+A479,W1097,T908,S109,Project Management,High,Completed
+A480,W1836,T479,S126,Data Analysis,Low,Pending
+A481,W1852,T762,S191,Data Analysis,High,Pending
+A482,W1441,T356,S117,Python,High,Completed
+A483,W1529,T306,S130,Java,High,On Hold
+A484,W1124,T905,S109,Python,Low,Pending
+A485,W1204,T61,S149,Project Management,Critical,Completed
+A486,W1962,T268,S179,Java,Medium,In Progress
+A487,W1120,T433,S127,Project Management,Critical,In Progress
+A488,W1907,T367,S130,Cybersecurity,Medium,In Progress
+A489,W1666,T622,S160,Data Analysis,Medium,In Progress
+A490,W1445,T83,S114,C++,Medium,In Progress
+A491,W1443,T547,S109,Python,Low,In Progress
+A492,W1455,T430,S155,Python,Low,Pending
+A493,W1613,T323,S126,DevOps,Medium,Pending
+A494,W1499,T219,S106,Project Management,Medium,Pending
+A495,W1639,T426,S137,DevOps,Critical,In Progress
+A496,W1784,T149,S180,Project Management,High,On Hold
+A497,W1110,T526,S193,Data Analysis,Low,In Progress
+A498,W1493,T159,S177,Cybersecurity,Critical,On Hold
+A499,W1495,T743,S105,Java,Critical,In Progress
+A500,W1361,T362,S171,UI/UX,Low,Completed
+A501,W1823,T154,S113,Project Management,Low,In Progress
+A502,W1989,T210,S178,Project Management,Medium,On Hold
+A503,W1906,T888,S107,C++,Critical,On Hold
+A504,W1654,T664,S155,Java,High,On Hold
+A505,W1723,T379,S183,C++,Critical,On Hold
+A506,W1957,T449,S175,UI/UX,Critical,Pending
+A507,W1744,T976,S167,UI/UX,Medium,On Hold
+A508,W1710,T386,S139,UI/UX,Medium,Pending
+A509,W1955,T156,S162,Java,Medium,In Progress
+A510,W1956,T874,S198,Python,High,In Progress
+A511,W1289,T705,S118,Python,Low,Completed
+A512,W1190,T714,S169,Cybersecurity,High,Pending
+A513,W1239,T7,S135,DevOps,High,On Hold
+A514,W1107,T14,S140,Cybersecurity,Low,Completed
+A515,W1968,T385,S103,C++,High,Pending
+A516,W1785,T979,S104,Java,Medium,Completed
+A517,W1883,T332,S152,DevOps,Critical,Completed
+A518,W1027,T210,S172,Data Analysis,Critical,In Progress
+A519,W1291,T735,S188,UI/UX,Low,In Progress
+A520,W1498,T839,S143,UI/UX,High,Completed
+A521,W1763,T439,S144,C++,Low,Completed
+A522,W1802,T193,S142,Cybersecurity,High,On Hold
+A523,W1404,T580,S173,Cybersecurity,Low,In Progress
+A524,W1980,T660,S190,DevOps,Medium,Pending
+A525,W1931,T482,S196,C++,Critical,In Progress
+A526,W1483,T159,S163,Cybersecurity,Critical,Pending
+A527,W1420,T443,S107,UI/UX,Low,In Progress
+A528,W1531,T867,S111,Project Management,Medium,In Progress
+A529,W1950,T54,S150,Python,Medium,Completed
+A530,W1465,T367,S187,DevOps,High,Completed
+A531,W1902,T94,S156,Python,Critical,Completed
+A532,W1067,T12,S123,C++,Critical,Completed
+A533,W1359,T348,S195,DevOps,High,In Progress
+A534,W1859,T463,S142,DevOps,Low,Completed
+A535,W1882,T54,S152,Project Management,Medium,Completed
+A536,W1834,T400,S150,UI/UX,Critical,Completed
+A537,W1213,T745,S194,Java,High,In Progress
+A538,W1227,T163,S174,Project Management,Low,In Progress
+A539,W1916,T190,S152,Java,High,Completed
+A540,W1506,T367,S129,Java,Medium,Pending
+A541,W1774,T436,S166,DevOps,Low,Pending
+A542,W1450,T749,S185,C++,Medium,Completed
+A543,W1578,T857,S153,Python,Low,In Progress
+A544,W1214,T189,S126,Java,Low,Completed
+A545,W1985,T806,S144,C++,High,On Hold
+A546,W1015,T506,S134,Project Management,Low,Pending
+A547,W1260,T820,S109,Data Analysis,High,In Progress
+A548,W1740,T28,S157,DevOps,Critical,In Progress
+A549,W1749,T743,S154,C++,Medium,Pending
+A550,W1192,T973,S119,Java,High,Pending
+A551,W1631,T93,S156,Java,Critical,In Progress
+A552,W1533,T332,S154,DevOps,Critical,On Hold
+A553,W1429,T297,S122,Cybersecurity,Low,Completed
+A554,W1820,T68,S172,Cybersecurity,Critical,In Progress
+A555,W1622,T982,S113,Data Analysis,High,Pending
+A556,W1203,T893,S157,Cybersecurity,Medium,On Hold
+A557,W1742,T555,S152,DevOps,Critical,On Hold
+A558,W1648,T548,S198,Project Management,Critical,Pending
+A559,W1522,T433,S138,C++,Medium,On Hold
+A560,W1325,T22,S100,C++,Low,On Hold
+A561,W1369,T730,S125,Java,Medium,Completed
+A562,W1665,T42,S162,Python,Low,In Progress
+A563,W1182,T12,S171,DevOps,Medium,Completed
+A564,W1181,T387,S131,DevOps,Critical,Pending
+A565,W1412,T102,S115,Data Analysis,Medium,In Progress
+A566,W1614,T913,S136,Cybersecurity,Low,Pending
+A567,W1920,T529,S194,Project Management,High,In Progress
+A568,W1331,T159,S187,UI/UX,Critical,In Progress
+A569,W1599,T840,S148,Java,Critical,On Hold
+A570,W1337,T849,S154,C++,Low,On Hold
+A571,W1657,T323,S111,Data Analysis,High,Completed
+A572,W1203,T194,S105,Project Management,High,Completed
+A573,W1037,T962,S193,Java,Medium,In Progress
+A574,W1759,T118,S157,Project Management,Critical,Completed
+A575,W1069,T219,S133,Cybersecurity,Low,Pending
+A576,W1366,T259,S161,DevOps,High,Completed
+A577,W1350,T227,S135,Python,Low,In Progress
+A578,W1825,T657,S144,Java,High,In Progress
+A579,W1913,T98,S195,Cybersecurity,Critical,In Progress
+A580,W1876,T353,S103,Cybersecurity,Critical,On Hold
+A581,W1483,T128,S187,DevOps,Medium,Pending
+A582,W1769,T740,S131,DevOps,Medium,Completed
+A583,W1041,T549,S188,Cybersecurity,High,Completed
+A584,W1772,T617,S116,Java,Medium,In Progress
+A585,W1484,T235,S134,Java,Medium,Pending
+A586,W1953,T105,S188,Cybersecurity,Medium,Completed
+A587,W1449,T660,S119,Java,Medium,Completed
+A588,W1614,T543,S120,UI/UX,Medium,On Hold
+A589,W1807,T162,S177,Project Management,High,Pending
+A590,W1167,T804,S119,Java,High,On Hold
+A591,W1815,T708,S140,Cybersecurity,Critical,In Progress
+A592,W1259,T2,S117,UI/UX,Critical,On Hold
+A593,W1336,T469,S116,Project Management,High,Pending
+A594,W1853,T117,S140,C++,Medium,In Progress
+A595,W1369,T194,S185,UI/UX,High,Pending
+A596,W1060,T329,S123,Java,Low,In Progress
+A597,W1258,T293,S139,Python,Critical,Completed
+A598,W1993,T247,S142,Java,High,In Progress
+A599,W1414,T81,S147,C++,High,Pending
+A600,W1675,T373,S146,Java,Low,On Hold
+A601,W1059,T980,S196,UI/UX,High,In Progress
+A602,W1923,T43,S140,UI/UX,High,Completed
+A603,W1148,T57,S109,Python,High,In Progress
+A604,W1121,T906,S144,UI/UX,Low,On Hold
+A605,W1237,T725,S199,UI/UX,Critical,In Progress
+A606,W1687,T342,S149,Data Analysis,Critical,On Hold
+A607,W1674,T824,S171,Project Management,Medium,On Hold
+A608,W1700,T710,S150,Java,Critical,Pending
+A609,W1335,T764,S194,Project Management,Medium,Pending
+A610,W1813,T306,S121,DevOps,Medium,In Progress
+A611,W1132,T57,S196,DevOps,Critical,Completed
+A612,W1571,T438,S125,Java,High,Completed
+A613,W1513,T70,S162,Data Analysis,Low,Pending
+A614,W1292,T944,S169,Data Analysis,High,In Progress
+A615,W1782,T802,S178,C++,High,In Progress
+A616,W1000,T203,S149,Java,Critical,On Hold
+A617,W1609,T976,S196,UI/UX,Medium,Pending
+A618,W1893,T978,S100,UI/UX,Low,On Hold
+A619,W1805,T694,S141,Python,High,On Hold
+A620,W1092,T824,S143,Python,High,On Hold
+A621,W1191,T719,S151,C++,Medium,On Hold
+A622,W1725,T415,S123,Project Management,Medium,On Hold
+A623,W1935,T681,S140,Cybersecurity,Medium,On Hold
+A624,W1293,T355,S159,Project Management,Low,On Hold
+A625,W1041,T95,S126,Data Analysis,Medium,On Hold
+A626,W1310,T826,S194,Cybersecurity,Low,In Progress
+A627,W1024,T439,S122,Python,Low,In Progress
+A628,W1230,T467,S174,Java,Low,Completed
+A629,W1094,T123,S187,DevOps,Low,On Hold
+A630,W1462,T821,S177,Project Management,High,In Progress
+A631,W1648,T96,S127,Cybersecurity,Medium,Pending
+A632,W1774,T144,S195,Python,Medium,On Hold
+A633,W1027,T905,S199,C++,Medium,On Hold
+A634,W1818,T621,S110,Cybersecurity,Medium,In Progress
+A635,W1295,T477,S152,Data Analysis,Low,Completed
+A636,W1775,T753,S199,UI/UX,High,On Hold
+A637,W1752,T707,S163,C++,Low,Completed
+A638,W1907,T889,S102,Cybersecurity,High,Pending
+A639,W1421,T107,S150,Project Management,Critical,Completed
+A640,W1193,T395,S178,Cybersecurity,High,Pending
+A641,W1250,T981,S199,Java,Low,Completed
+A642,W1308,T950,S182,C++,Critical,In Progress
+A643,W1930,T423,S156,UI/UX,Critical,Completed
+A644,W1679,T914,S146,Java,Critical,Completed
+A645,W1655,T250,S197,UI/UX,High,Pending
+A646,W1129,T506,S137,Python,Critical,Completed
+A647,W1511,T234,S125,Java,Low,Pending
+A648,W1968,T350,S191,Python,High,In Progress
+A649,W1116,T750,S191,C++,Medium,In Progress
+A650,W1723,T465,S153,Project Management,Low,On Hold
+A651,W1951,T489,S164,C++,Low,Completed
+A652,W1850,T669,S105,DevOps,Critical,Pending
+A653,W1814,T757,S156,C++,Medium,Pending
+A654,W1745,T989,S105,DevOps,High,In Progress
+A655,W1645,T703,S117,Project Management,High,Pending
+A656,W1982,T951,S116,C++,Critical,Completed
+A657,W1501,T761,S182,Python,Critical,Completed
+A658,W1977,T292,S171,Data Analysis,Medium,Pending
+A659,W1138,T148,S114,Project Management,Low,On Hold
+A660,W1444,T677,S198,UI/UX,High,Pending
+A661,W1523,T603,S199,Python,Critical,On Hold
+A662,W1264,T157,S158,C++,High,On Hold
+A663,W1872,T808,S104,Project Management,Medium,In Progress
+A664,W1842,T245,S134,DevOps,Low,On Hold
+A665,W1331,T884,S178,UI/UX,Medium,In Progress
+A666,W1257,T188,S134,Project Management,High,In Progress
+A667,W1719,T94,S158,Project Management,Medium,Completed
+A668,W1617,T251,S152,Cybersecurity,Medium,Completed
+A669,W1017,T316,S181,C++,Low,In Progress
+A670,W1105,T798,S190,C++,Low,Completed
+A671,W1264,T822,S130,Java,High,Completed
+A672,W1508,T281,S142,C++,Medium,Pending
+A673,W1559,T452,S168,Data Analysis,Medium,Completed
+A674,W1818,T542,S182,C++,Medium,Pending
+A675,W1354,T664,S161,Cybersecurity,Low,Completed
+A676,W1135,T298,S129,Python,Low,Completed
+A677,W1221,T632,S123,Java,High,In Progress
+A678,W1890,T212,S196,Data Analysis,Medium,Completed
+A679,W1889,T51,S148,UI/UX,Medium,In Progress
+A680,W1478,T922,S159,C++,Critical,Pending
+A681,W1244,T880,S199,Data Analysis,Low,Completed
+A682,W1982,T644,S136,Python,Critical,In Progress
+A683,W1735,T156,S165,C++,Critical,Completed
+A684,W1500,T799,S114,Data Analysis,Low,In Progress
+A685,W1103,T804,S109,Python,Medium,On Hold
+A686,W1235,T903,S102,Cybersecurity,Critical,On Hold
+A687,W1133,T152,S141,Data Analysis,Medium,In Progress
+A688,W1051,T49,S130,Java,Low,On Hold
+A689,W1247,T470,S190,Cybersecurity,Low,Pending
+A690,W1023,T253,S144,DevOps,High,In Progress
+A691,W1096,T436,S157,Python,Critical,Pending
+A692,W1468,T782,S121,Project Management,Critical,On Hold
+A693,W1568,T792,S134,Java,High,In Progress
+A694,W1387,T149,S174,Cybersecurity,Low,Completed
+A695,W1644,T654,S191,Data Analysis,Medium,Completed
+A696,W1686,T607,S130,UI/UX,Critical,On Hold
+A697,W1255,T129,S138,C++,High,Completed
+A698,W1748,T382,S100,Data Analysis,Medium,Completed
+A699,W1664,T830,S168,Data Analysis,Medium,In Progress
+A700,W1814,T954,S162,Project Management,Critical,In Progress
+A701,W1824,T575,S140,DevOps,High,In Progress
+A702,W1135,T233,S123,Cybersecurity,Low,Pending
+A703,W1666,T620,S129,UI/UX,Critical,Pending
+A704,W1214,T24,S152,DevOps,Medium,On Hold
+A705,W1498,T856,S167,UI/UX,Medium,On Hold
+A706,W1431,T724,S193,Project Management,Medium,Pending
+A707,W1552,T974,S159,C++,High,On Hold
+A708,W1859,T533,S133,C++,Medium,Completed
+A709,W1226,T791,S194,Data Analysis,Low,Pending
+A710,W1895,T313,S140,Python,Low,Completed
+A711,W1242,T631,S128,Python,Low,In Progress
+A712,W1470,T110,S126,C++,High,Pending
+A713,W1382,T255,S129,Project Management,Medium,On Hold
+A714,W1004,T916,S162,UI/UX,Critical,In Progress
+A715,W1234,T343,S130,UI/UX,Medium,Pending
+A716,W1245,T493,S108,C++,Critical,Pending
+A717,W1261,T67,S190,Cybersecurity,Medium,On Hold
+A718,W1622,T481,S134,Python,Medium,In Progress
+A719,W1801,T956,S171,DevOps,Low,Completed
+A720,W1889,T332,S158,Java,Critical,Completed
+A721,W1919,T611,S105,Python,Critical,In Progress
+A722,W1966,T264,S192,Python,Medium,In Progress
+A723,W1479,T493,S176,Cybersecurity,High,Completed
+A724,W1046,T438,S177,C++,Low,Pending
+A725,W1922,T30,S136,UI/UX,Low,Pending
+A726,W1147,T760,S187,Python,High,In Progress
+A727,W1763,T724,S160,Python,Medium,On Hold
+A728,W1559,T642,S107,DevOps,Low,Completed
+A729,W1865,T442,S110,DevOps,Low,Pending
+A730,W1330,T448,S103,Cybersecurity,High,In Progress
+A731,W1736,T537,S183,C++,High,Pending
+A732,W1877,T152,S120,UI/UX,Medium,Pending
+A733,W1630,T271,S100,Project Management,Critical,On Hold
+A734,W1091,T321,S106,Java,High,Completed
+A735,W1347,T724,S148,UI/UX,Medium,Completed
+A736,W1055,T66,S110,DevOps,Medium,On Hold
+A737,W1504,T895,S150,Data Analysis,Medium,Completed
+A738,W1090,T920,S171,DevOps,Critical,Completed
+A739,W1183,T122,S147,UI/UX,Medium,On Hold
+A740,W1708,T760,S142,Cybersecurity,High,In Progress
+A741,W1110,T827,S118,UI/UX,Low,Pending
+A742,W1000,T692,S121,Data Analysis,Critical,On Hold
+A743,W1440,T246,S100,UI/UX,Critical,On Hold
+A744,W1249,T877,S113,Data Analysis,High,In Progress
+A745,W1520,T457,S116,UI/UX,Medium,Completed
+A746,W1235,T28,S153,Java,Critical,Pending
+A747,W1269,T447,S151,DevOps,Critical,On Hold
+A748,W1375,T477,S104,C++,High,On Hold
+A749,W1948,T958,S169,Data Analysis,Medium,Pending
+A750,W1695,T71,S113,Cybersecurity,Low,In Progress
+A751,W1563,T620,S144,UI/UX,Medium,In Progress
+A752,W1262,T802,S120,Python,Medium,In Progress
+A753,W1146,T218,S183,Java,Medium,On Hold
+A754,W1618,T771,S190,Java,Medium,On Hold
+A755,W1463,T519,S105,C++,Critical,Pending
+A756,W1812,T707,S122,Java,Critical,Completed
+A757,W1683,T366,S127,DevOps,Medium,Pending
+A758,W1958,T133,S150,C++,Medium,Completed
+A759,W1127,T247,S196,DevOps,Low,Completed
+A760,W1731,T326,S116,Data Analysis,Medium,Completed
+A761,W1866,T72,S176,UI/UX,Medium,On Hold
+A762,W1660,T67,S132,Python,Low,In Progress
+A763,W1467,T934,S188,DevOps,Medium,Pending
+A764,W1945,T246,S194,Project Management,Low,In Progress
+A765,W1527,T86,S143,Java,Critical,Pending
+A766,W1892,T896,S169,Cybersecurity,Critical,Completed
+A767,W1834,T773,S102,UI/UX,Critical,Completed
+A768,W1798,T947,S163,DevOps,Critical,Completed
+A769,W1299,T225,S188,UI/UX,Low,On Hold
+A770,W1890,T592,S152,Java,High,On Hold
+A771,W1136,T605,S166,Project Management,Critical,Completed
+A772,W1240,T942,S153,Python,Low,Pending
+A773,W1542,T386,S104,Data Analysis,High,Pending
+A774,W1892,T891,S119,Data Analysis,Critical,On Hold
+A775,W1804,T653,S192,Python,Medium,Completed
+A776,W1233,T188,S115,Cybersecurity,Low,Completed
+A777,W1876,T523,S145,Python,Critical,Pending
+A778,W1732,T992,S158,Project Management,Medium,On Hold
+A779,W1126,T79,S195,UI/UX,Low,On Hold
+A780,W1737,T187,S140,Cybersecurity,Critical,On Hold
+A781,W1817,T528,S147,Cybersecurity,Medium,Pending
+A782,W1533,T426,S160,DevOps,Low,Pending
+A783,W1548,T170,S118,C++,High,Completed
+A784,W1366,T144,S197,Java,Low,Pending
+A785,W1788,T389,S127,Project Management,Low,In Progress
+A786,W1765,T104,S167,UI/UX,Critical,In Progress
+A787,W1447,T151,S146,UI/UX,High,Completed
+A788,W1913,T746,S189,Java,High,Pending
+A789,W1957,T305,S162,Cybersecurity,High,On Hold
+A790,W1740,T901,S146,Python,Medium,In Progress
+A791,W1952,T202,S124,Python,Low,On Hold
+A792,W1564,T596,S111,Java,High,Completed
+A793,W1656,T436,S151,Data Analysis,Low,Pending
+A794,W1169,T569,S179,Project Management,Low,In Progress
+A795,W1753,T934,S114,UI/UX,Low,Pending
+A796,W1591,T297,S110,Java,Low,On Hold
+A797,W1833,T484,S174,C++,Medium,On Hold
+A798,W1741,T159,S148,C++,Critical,In Progress
+A799,W1056,T596,S187,C++,Medium,On Hold
+A800,W1076,T520,S171,UI/UX,Critical,Completed
+A801,W1653,T130,S142,C++,Medium,Pending
+A802,W1130,T748,S126,Cybersecurity,High,Completed
+A803,W1555,T437,S169,Data Analysis,Medium,In Progress
+A804,W1569,T399,S119,Cybersecurity,High,On Hold
+A805,W1597,T883,S130,Project Management,High,In Progress
+A806,W1616,T77,S135,UI/UX,Low,On Hold
+A807,W1995,T681,S165,DevOps,Medium,In Progress
+A808,W1198,T621,S192,DevOps,Medium,Pending
+A809,W1731,T373,S195,Cybersecurity,Medium,On Hold
+A810,W1338,T719,S112,Python,Low,In Progress
+A811,W1718,T98,S124,Cybersecurity,Critical,Pending
+A812,W1933,T457,S102,C++,Low,Completed
+A813,W1633,T343,S135,DevOps,High,On Hold
+A814,W1837,T620,S128,Data Analysis,Low,Completed
+A815,W1202,T826,S137,Java,High,Pending
+A816,W1468,T273,S120,Python,Low,On Hold
+A817,W1867,T217,S120,Project Management,Critical,Pending
+A818,W1046,T807,S141,DevOps,Low,In Progress
+A819,W1747,T271,S139,Cybersecurity,High,Pending
+A820,W1955,T231,S193,Java,Low,Pending
+A821,W1293,T515,S170,Python,Medium,Completed
+A822,W1546,T995,S150,UI/UX,High,In Progress
+A823,W1992,T145,S109,Project Management,Medium,Completed
+A824,W1000,T152,S168,C++,High,Pending
+A825,W1412,T357,S135,C++,High,Completed
+A826,W1195,T970,S149,Data Analysis,High,In Progress
+A827,W1403,T24,S148,Python,Low,On Hold
+A828,W1194,T356,S135,Data Analysis,Low,Pending
+A829,W1739,T423,S164,Cybersecurity,Low,Completed
+A830,W1467,T853,S163,Project Management,Critical,In Progress
+A831,W1246,T306,S129,Cybersecurity,Medium,Pending
+A832,W1468,T254,S167,Project Management,Medium,On Hold
+A833,W1574,T207,S186,C++,Low,On Hold
+A834,W1952,T773,S137,DevOps,High,In Progress
+A835,W1228,T831,S114,Python,Critical,Completed
+A836,W1375,T185,S163,Python,Medium,On Hold
+A837,W1236,T427,S195,Python,High,Pending
+A838,W1990,T314,S147,DevOps,Medium,In Progress
+A839,W1747,T165,S133,C++,Medium,On Hold
+A840,W1540,T357,S100,C++,Critical,Completed
+A841,W1744,T746,S136,Cybersecurity,Critical,On Hold
+A842,W1892,T339,S104,UI/UX,Medium,On Hold
+A843,W1869,T875,S182,DevOps,Low,On Hold
+A844,W1838,T103,S159,Python,Low,In Progress
+A845,W1025,T553,S131,Data Analysis,Critical,On Hold
+A846,W1505,T360,S159,C++,Low,On Hold
+A847,W1601,T720,S173,DevOps,Low,Completed
+A848,W1226,T427,S157,Data Analysis,High,In Progress
+A849,W1690,T809,S130,Cybersecurity,Medium,Completed
+A850,W1603,T997,S102,Project Management,High,In Progress
+A851,W1411,T117,S117,DevOps,Critical,On Hold
+A852,W1452,T885,S105,C++,High,Pending
+A853,W1118,T135,S186,UI/UX,Medium,On Hold
+A854,W1964,T98,S129,UI/UX,Medium,Pending
+A855,W1115,T552,S156,Cybersecurity,Medium,Completed
+A856,W1836,T964,S114,Cybersecurity,High,On Hold
+A857,W1326,T400,S181,Python,Medium,Pending
+A858,W1241,T276,S105,Cybersecurity,Low,In Progress
+A859,W1016,T1,S100,Java,High,In Progress
+A860,W1914,T740,S131,UI/UX,Medium,Pending
+A861,W1692,T28,S188,Cybersecurity,High,Pending
+A862,W1285,T254,S119,UI/UX,Medium,In Progress
+A863,W1228,T674,S102,UI/UX,Critical,Completed
+A864,W1695,T104,S126,Java,Medium,Completed
+A865,W1797,T623,S160,Project Management,Low,Completed
+A866,W1229,T749,S190,DevOps,High,Pending
+A867,W1721,T111,S180,Java,Critical,Completed
+A868,W1570,T835,S160,Data Analysis,Low,In Progress
+A869,W1781,T23,S127,Project Management,Low,Completed
+A870,W1237,T947,S147,Java,Critical,In Progress
+A871,W1786,T167,S144,Data Analysis,Medium,On Hold
+A872,W1307,T617,S195,Project Management,High,In Progress
+A873,W1462,T811,S152,Java,Low,On Hold
+A874,W1687,T817,S174,Data Analysis,Low,On Hold
+A875,W1207,T99,S179,Project Management,Critical,In Progress
+A876,W1284,T621,S198,Cybersecurity,Medium,On Hold
+A877,W1920,T404,S130,Data Analysis,High,Completed
+A878,W1242,T242,S194,DevOps,High,On Hold
+A879,W1213,T626,S149,Java,Low,On Hold
+A880,W1594,T119,S184,Data Analysis,Critical,On Hold
+A881,W1173,T997,S101,Data Analysis,Medium,Completed
+A882,W1432,T48,S116,Cybersecurity,Medium,In Progress
+A883,W1480,T491,S118,Cybersecurity,High,Pending
+A884,W1541,T412,S102,Data Analysis,High,Pending
+A885,W1288,T435,S117,DevOps,Critical,In Progress
+A886,W1731,T38,S120,Python,Low,Pending
+A887,W1959,T137,S182,Project Management,High,Pending
+A888,W1119,T958,S179,Data Analysis,High,Pending
+A889,W1615,T716,S158,Python,High,On Hold
+A890,W1665,T862,S164,DevOps,High,In Progress
+A891,W1461,T582,S184,Project Management,Medium,Pending
+A892,W1005,T287,S194,DevOps,Critical,Completed
+A893,W1564,T42,S183,DevOps,Low,Completed
+A894,W1130,T140,S160,UI/UX,Critical,Completed
+A895,W1663,T480,S102,C++,Critical,Pending
+A896,W1005,T885,S141,Data Analysis,Critical,On Hold
+A897,W1534,T227,S170,Python,Critical,Completed
+A898,W1220,T630,S105,Project Management,High,Completed
+A899,W1600,T754,S180,Java,Critical,Completed
+A900,W1061,T807,S132,Cybersecurity,Medium,In Progress
+A901,W1912,T859,S158,Project Management,High,Pending
+A902,W1545,T365,S120,UI/UX,High,Completed
+A903,W1982,T40,S162,Project Management,Medium,On Hold
+A904,W1458,T401,S136,Data Analysis,Medium,Pending
+A905,W1995,T283,S165,Python,High,Pending
+A906,W1764,T958,S122,Python,Critical,Completed
+A907,W1973,T321,S134,DevOps,High,Completed
+A908,W1921,T906,S143,UI/UX,High,On Hold
+A909,W1869,T148,S165,Cybersecurity,Critical,In Progress
+A910,W1141,T15,S157,C++,High,In Progress
+A911,W1001,T685,S104,Data Analysis,Critical,On Hold
+A912,W1837,T58,S170,Data Analysis,Medium,Pending
+A913,W1856,T177,S176,Python,Medium,Pending
+A914,W1151,T648,S172,C++,High,On Hold
+A915,W1267,T640,S155,Java,Low,In Progress
+A916,W1136,T923,S166,Java,Critical,Pending
+A917,W1172,T593,S163,Data Analysis,Critical,Pending
+A918,W1535,T260,S107,C++,Critical,Pending
+A919,W1961,T754,S157,Java,Medium,Pending
+A920,W1239,T505,S135,UI/UX,High,Pending
+A921,W1294,T702,S127,UI/UX,Medium,In Progress
+A922,W1983,T135,S142,Java,Low,In Progress
+A923,W1705,T287,S137,Java,Critical,Completed
+A924,W1324,T71,S119,C++,Critical,Completed
+A925,W1261,T223,S184,Data Analysis,Medium,Completed
+A926,W1152,T817,S175,Python,Low,In Progress
+A927,W1300,T50,S166,UI/UX,High,Pending
+A928,W1118,T404,S135,Java,High,On Hold
+A929,W1065,T69,S117,Project Management,Low,In Progress
+A930,W1110,T450,S125,Python,High,Pending
+A931,W1973,T884,S107,DevOps,Medium,Pending
+A932,W1825,T982,S129,Data Analysis,High,On Hold
+A933,W1616,T216,S191,Cybersecurity,Critical,Pending
+A934,W1043,T281,S181,DevOps,Low,Completed
+A935,W1742,T880,S176,UI/UX,Critical,On Hold
+A936,W1854,T853,S188,DevOps,Low,On Hold
+A937,W1138,T13,S150,C++,Medium,Pending
+A938,W1994,T216,S159,Cybersecurity,Critical,In Progress
+A939,W1738,T608,S183,Project Management,Medium,On Hold
+A940,W1983,T601,S176,Data Analysis,Low,Completed
+A941,W1216,T656,S197,Cybersecurity,Medium,On Hold
+A942,W1405,T742,S166,Java,Low,Completed
+A943,W1230,T125,S164,Cybersecurity,High,On Hold
+A944,W1729,T846,S168,Python,Critical,On Hold
+A945,W1691,T186,S176,DevOps,Medium,Completed
+A946,W1136,T382,S157,Python,Low,On Hold
+A947,W1403,T462,S197,Python,Critical,On Hold
+A948,W1863,T44,S183,Cybersecurity,High,Pending
+A949,W1776,T236,S167,C++,Low,Completed
+A950,W1997,T265,S126,Data Analysis,Low,Pending
+A951,W1399,T65,S126,DevOps,Low,On Hold
+A952,W1728,T480,S146,C++,Medium,In Progress
+A953,W1700,T51,S113,UI/UX,Low,In Progress
+A954,W1882,T873,S167,Java,Critical,Pending
+A955,W1652,T137,S199,DevOps,High,On Hold
+A956,W1916,T5,S150,Java,Critical,Completed
+A957,W1158,T7,S153,Data Analysis,Low,On Hold
+A958,W1689,T333,S105,Cybersecurity,Low,In Progress
+A959,W1445,T90,S141,Python,Medium,Pending
+A960,W1354,T174,S138,Java,Low,In Progress
+A961,W1494,T855,S110,Python,Low,On Hold
+A962,W1185,T437,S124,Cybersecurity,Low,Pending
+A963,W1268,T807,S107,UI/UX,Critical,In Progress
+A964,W1498,T990,S126,Project Management,Medium,On Hold
+A965,W1811,T472,S146,Cybersecurity,Medium,In Progress
+A966,W1109,T410,S192,UI/UX,Medium,In Progress
+A967,W1402,T476,S126,DevOps,Medium,In Progress
+A968,W1794,T652,S130,C++,High,On Hold
+A969,W1366,T399,S180,Python,Critical,In Progress
+A970,W1997,T143,S159,UI/UX,Low,Pending
+A971,W1187,T232,S138,Cybersecurity,Critical,Completed
+A972,W1042,T472,S181,C++,Medium,In Progress
+A973,W1966,T848,S103,Cybersecurity,Low,Pending
+A974,W1731,T247,S189,Project Management,Low,In Progress
+A975,W1785,T720,S118,DevOps,Critical,Pending
+A976,W1212,T783,S177,Python,Low,On Hold
+A977,W1192,T878,S174,Cybersecurity,Critical,In Progress
+A978,W1787,T663,S190,UI/UX,Critical,Pending
+A979,W1520,T400,S137,Python,Medium,In Progress
+A980,W1169,T889,S171,Cybersecurity,Critical,On Hold
+A981,W1483,T724,S180,UI/UX,Medium,Pending
+A982,W1151,T894,S143,UI/UX,Critical,Completed
+A983,W1573,T747,S127,Data Analysis,Low,Pending
+A984,W1009,T253,S185,Project Management,Critical,Pending
+A985,W1911,T913,S149,Python,Medium,Completed
+A986,W1034,T974,S175,Project Management,Medium,Pending
+A987,W1010,T149,S199,Python,High,Completed
+A988,W1920,T708,S109,Java,High,Pending
+A989,W1092,T209,S128,UI/UX,Medium,Completed
+A990,W1915,T700,S121,Cybersecurity,Critical,On Hold
+A991,W1005,T202,S131,Java,High,On Hold
+A992,W1167,T451,S149,C++,Critical,Completed
+A993,W1073,T308,S140,Python,Medium,In Progress
+A994,W1465,T644,S153,Java,Medium,Pending
+A995,W1729,T474,S153,Cybersecurity,High,Completed
+A996,W1082,T586,S152,Python,Medium,Completed
+A997,W1579,T892,S163,Data Analysis,Medium,Pending
+A998,W1042,T109,S126,Cybersecurity,Medium,Completed
+A999,W1504,T764,S148,Project Management,Medium,On Hold
+A1000,W1828,T594,S149,Data Analysis,Critical,In Progress

@@ -1,0 +1,101 @@
+assignment_id,worker_id,task_id,supervisor_id,skill,priority,status
+A1,W1718,T54,S190,Java,Critical,In Progress
+A2,W1127,T57,S102,Python,Critical,Pending
+A3,W1830,T95,S186,Project Management,High,On Hold
+A4,W1167,T29,S163,Cybersecurity,Medium,On Hold
+A5,W1441,T33,S102,Project Management,High,On Hold
+A6,W1310,T20,S188,Cybersecurity,Low,On Hold
+A7,W1614,T28,S173,DevOps,Medium,Completed
+A8,W1033,T8,S122,Java,High,On Hold
+A9,W1508,T11,S168,Project Management,Medium,Pending
+A10,W1781,T39,S133,Python,Critical,Pending
+A11,W1130,T17,S184,Java,Medium,Completed
+A12,W1915,T49,S101,Java,High,Completed
+A13,W1167,T72,S132,DevOps,Medium,Completed
+A14,W1269,T81,S109,Cybersecurity,Medium,Completed
+A15,W1521,T23,S199,Data Analysis,High,Completed
+A16,W1984,T89,S115,DevOps,Critical,Pending
+A17,W1375,T58,S122,Cybersecurity,Low,Completed
+A18,W1400,T35,S191,Python,High,Completed
+A19,W1984,T4,S167,Project Management,Medium,Completed
+A20,W1432,T82,S147,DevOps,High,In Progress
+A21,W1309,T6,S189,Java,Low,Completed
+A22,W1056,T77,S159,Data Analysis,Low,On Hold
+A23,W1682,T40,S105,Project Management,Medium,Completed
+A24,W1900,T78,S112,Python,Low,In Progress
+A25,W1947,T36,S160,Data Analysis,High,In Progress
+A26,W1839,T71,S134,Cybersecurity,Critical,In Progress
+A27,W1962,T13,S104,DevOps,High,In Progress
+A28,W1448,T3,S193,Java,Low,Pending
+A29,W1245,T39,S108,DevOps,High,Pending
+A30,W1407,T66,S143,Python,Low,Pending
+A31,W1514,T56,S101,Java,Medium,Pending
+A32,W1658,T75,S107,C++,Critical,On Hold
+A33,W1991,T4,S115,DevOps,Critical,Pending
+A34,W1975,T82,S195,Project Management,Low,Pending
+A35,W1339,T50,S130,DevOps,Critical,Pending
+A36,W1413,T43,S189,Java,High,On Hold
+A37,W1727,T12,S166,Project Management,Critical,In Progress
+A38,W1904,T16,S111,DevOps,Critical,In Progress
+A39,W1817,T84,S162,Java,Critical,Pending
+A40,W1354,T59,S177,UI/UX,Critical,Completed
+A41,W1517,T84,S159,Python,High,On Hold
+A42,W1870,T89,S141,Cybersecurity,Critical,On Hold
+A43,W1715,T50,S132,Python,Low,On Hold
+A44,W1168,T77,S157,Python,Critical,On Hold
+A45,W1008,T44,S123,C++,High,Pending
+A46,W1976,T34,S154,C++,Low,Completed
+A47,W1171,T27,S165,UI/UX,Critical,Completed
+A48,W1642,T70,S110,C++,High,Pending
+A49,W1307,T12,S167,UI/UX,Critical,Pending
+A50,W1812,T27,S191,Python,Medium,On Hold
+A51,W1658,T6,S107,Java,High,Completed
+A52,W1005,T7,S159,Data Analysis,High,In Progress
+A53,W1893,T57,S116,Java,High,In Progress
+A54,W1786,T64,S139,Python,High,Pending
+A55,W1243,T65,S170,Java,High,Completed
+A56,W1317,T3,S183,Data Analysis,High,Pending
+A57,W1594,T34,S148,DevOps,Low,Pending
+A58,W1745,T92,S146,Python,Medium,On Hold
+A59,W1438,T36,S155,Cybersecurity,Low,In Progress
+A60,W1550,T99,S112,UI/UX,Critical,Pending
+A61,W1995,T9,S116,Project Management,Critical,In Progress
+A62,W1402,T52,S106,Cybersecurity,High,Pending
+A63,W1316,T67,S143,UI/UX,Low,In Progress
+A64,W1936,T79,S192,Cybersecurity,Critical,On Hold
+A65,W1348,T15,S127,DevOps,High,In Progress
+A66,W1394,T52,S104,Python,Low,Completed
+A67,W1294,T22,S134,UI/UX,Medium,On Hold
+A68,W1815,T34,S102,Project Management,Critical,On Hold
+A69,W1452,T69,S191,Cybersecurity,Low,Pending
+A70,W1782,T90,S107,Cybersecurity,Critical,Completed
+A71,W1558,T67,S170,Project Management,Medium,Completed
+A72,W1686,T77,S111,Java,Critical,Completed
+A73,W1867,T79,S193,C++,Critical,Completed
+A74,W1737,T76,S198,DevOps,Critical,Completed
+A75,W1554,T83,S152,Python,Critical,Completed
+A76,W1638,T59,S168,Python,Low,Pending
+A77,W1780,T51,S177,DevOps,Critical,In Progress
+A78,W1820,T22,S193,Java,Medium,In Progress
+A79,W1174,T88,S129,C++,Low,In Progress
+A80,W1631,T6,S191,DevOps,High,On Hold
+A81,W1728,T40,S109,Java,High,Completed
+A82,W1416,T35,S124,Java,Medium,Pending
+A83,W1130,T40,S111,Data Analysis,High,Completed
+A84,W1704,T20,S194,C++,High,Pending
+A85,W1948,T26,S148,UI/UX,Critical,Completed
+A86,W1796,T86,S177,Java,Critical,Pending
+A87,W1358,T62,S156,Cybersecurity,Low,On Hold
+A88,W1174,T43,S109,Java,High,Completed
+A89,W1131,T96,S118,DevOps,Medium,On Hold
+A90,W1095,T58,S102,Python,Medium,In Progress
+A91,W1991,T46,S178,Java,Low,Completed
+A92,W1150,T49,S147,Cybersecurity,High,Completed
+A93,W1133,T47,S105,DevOps,Medium,In Progress
+A94,W1117,T84,S176,Data Analysis,High,Pending
+A95,W1959,T90,S172,Project Management,Low,On Hold
+A96,W1119,T50,S143,Project Management,Medium,In Progress
+A97,W1595,T48,S143,C++,Medium,In Progress
+A98,W1540,T27,S198,Project Management,Low,Completed
+A99,W1904,T5,S175,Python,High,Pending
+A100,W1831,T100,S179,Python,Critical,On Hold
